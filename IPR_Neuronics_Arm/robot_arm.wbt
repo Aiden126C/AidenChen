@@ -1,0 +1,53 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/neuronics/ipr/protos/IprHd6ms180.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.04786578357817939 0.16247168542383444 -0.9855515299556818 0.580888920482813
+  position -1.4388347808437227 0.9016023122829133 1.1891685840235928
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+IprHd6ms180 {
+  hidden position_0_0 -1.160534170097094e-06
+  hidden rotation_7 0 0 1 0.12478983946582745
+  hidden position_7_0 3.459178241099227e-07
+  hidden rotation_8 -1 0 0 0.5977753459178243
+  hidden position_8_0 -8.474960404569742e-07
+  hidden rotation_9 1 0 0 2.2218008474960405
+  hidden position_9_0 3.496970983351458e-07
+  hidden rotation_10 -1 0 0 2.0333103496970986
+  hidden position_10_0 3.7738649719502904e-07
+  hidden rotation_11 0 0 1 2.993190377386497
+  hidden position_11_0 -4.93851608496243e-08
+  hidden position_11_1 -4.8146204356669386e-08
+  hidden rotation_12 0 -1 0 5.16191365590357e-08
+  hidden translation_17 0.005700048746179659 -2.9942706675223363e-07 0.03249926739690667
+  hidden rotation_17 -3.185216611373351e-15 1 -3.409629599901928e-14 0.19199999999999098
+  hidden translation_18 4.426426127024374e-08 -3.210969286016052e-07 0.08369929536008502
+  hidden rotation_18 0.7032650542378527 -0.25707588117097974 -0.6628199263812115 9.393082958854814e-15
+  hidden rotation_20 0 1 0 5.16191365590357e-08
+  hidden translation_25 -0.007699957115494982 -2.997007569338628e-07 0.03249927176933354
+  hidden rotation_25 -2.084317183557506e-15 -1 8.393036418071027e-15 -2.9496853071795783
+  hidden translation_26 4.760200662812242e-08 -3.2094000845805937e-07 0.08369929286974465
+  hidden rotation_26 -2.345346142037401e-15 -1 5.523359553437192e-15 3.1415000000000046
+  translation 0 0 0.75
+  controller "move_arm_v1"
+  tableSlot [
+    Table {
+      translation 0 0 -0.75
+      size 0.5 0.5 0.75
+    }
+  ]
+}

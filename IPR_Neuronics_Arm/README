@@ -1,0 +1,6 @@
+Neuronics has developed a community model of a robotic arm called IPR. The model we specifically use is "IprHd6ms180.proto".
+This folder contains:
+- Webot world file
+- Controller file that inlcudes the IPR class
+- Makefile that points to IPR library for compilation
+  - Note: may need to change path name for personal location

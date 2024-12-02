@@ -1,4 +1,4 @@
-# EC601_RoboticArmForWheelChair
+# EC601_Team7th_CareBotics
 
 __Project Definition:__ The overall goal of our project is to create a working robotic arm in simulation that can assist those in wheelchairs and those with limited upper-body mobility. The primary objective would be the full simulation of the arm in software, and then there are two secondary objectives that are time permitting. The first would be to create a modular user-controller interface that will allow plug-and-play controllers; such as a joystick, eye-tracking, and/or voice-controlled. The second would be to 3D print a single joint and use a servo motor to operate it as a prototype.
 

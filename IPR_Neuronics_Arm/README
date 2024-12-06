@@ -4,3 +4,5 @@ This folder contains:
 - Controller file that inlcudes the IPR class
 - Makefile that points to IPR library for compilation
   - Note: may need to change path name for personal location
+
+The 'gaze tracking' files used are used and provided through the MIT License
